@@ -143,7 +143,7 @@ void lastOderByStack(LPTREE root){
     }
 
 }
-
+//´´½¨ËÀÊ÷
 int main(){
     LPTREE A = creatNode('A');
     LPTREE B = creatNode('B');
