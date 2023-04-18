@@ -5,14 +5,14 @@
 typedef char DataType;
  
 typedef struct Node {
-	//å®šä¹‰äºŒå‰æ ‘ç»“ç‚¹
+	//¶¨Òå¶ş²æÊ÷½áµã
 	DataType data;
 	struct Node* leftChild;
 	struct Node* rightChild;
 }BiTreeNode, * BiTree;
  
 typedef struct
-{//å®šä¹‰é˜Ÿåˆ—
+{//¶¨Òå¶ÓÁĞ
 	BiTree data[QueueMax];
 	int head;
 	int rear;
@@ -20,23 +20,23 @@ typedef struct
 }Queue;
  
  
-//è¾“    å…¥ï¼šABDGL###H###CEIM###JN##O##F#K#P##
-BiTree CreatePreTree();  //å»ºç«‹äºŒå‰æ ‘
-int Count1(BiTree bt);//äºŒå‰æ ‘çš„å¶å­èŠ‚ç‚¹çš„æ•°é‡
-int Count2(BiTree bt);//åº¦ä¸º2çš„èŠ‚ç‚¹çš„æ•°é‡
-int Treehigh(BiTree bt);//äºŒå‰æ ‘çš„æ·±åº¦
-void ChangeTree(BiTree bt);//äº¤æ¢å·¦å³å­æ ‘
-Queue InitQueue();  //åˆå§‹åŒ–é˜Ÿåˆ—
-int IsEmptyQueue(Queue seq);  //é˜Ÿåˆ—åˆ¤ç©º
-int IsFullQueue(Queue seq);   //é˜Ÿåˆ—åˆ¤æ»¡
-void PushQueue(Queue* seq, BiTree T);  //å…¥é˜Ÿ
-void PopQueue(Queue* seq, BiTree* T);  //å‡ºé˜Ÿ
-void LevelOrder(BiTree T);  //å±‚åºéå†
-void PreOrder(BiTreeNode* root, void visit(DataType item));//å‰åºéå†
-void InOrder(BiTreeNode* root, void visit(DataType item));//ä¸­åºéå†
-void PostOrder(BiTreeNode* root, void visit(DataType item));//ååºéå†
-void visit(DataType item);//è®¿é—®å‡½æ•°
-void Destory(BiTree bt); //é‡Šæ”¾ç©ºé—´
+//Êä    Èë£ºABDGL###H###CEIM###JN##O##F#K#P##
+BiTree CreatePreTree();  //½¨Á¢¶ş²æÊ÷
+int Count1(BiTree bt);//¶ş²æÊ÷µÄÒ¶×Ó½ÚµãµÄÊıÁ¿
+int Count2(BiTree bt);//¶ÈÎª2µÄ½ÚµãµÄÊıÁ¿
+int Treehigh(BiTree bt);//¶ş²æÊ÷µÄÉî¶È
+void ChangeTree(BiTree bt);//½»»»×óÓÒ×ÓÊ÷
+Queue InitQueue();  //³õÊ¼»¯¶ÓÁĞ
+int IsEmptyQueue(Queue seq);  //¶ÓÁĞÅĞ¿Õ
+int IsFullQueue(Queue seq);   //¶ÓÁĞÅĞÂú
+void PushQueue(Queue* seq, BiTree T);  //Èë¶Ó
+void PopQueue(Queue* seq, BiTree* T);  //³ö¶Ó
+void LevelOrder(BiTree T);  //²ãĞò±éÀú
+void PreOrder(BiTreeNode* root, void visit(DataType item));//Ç°Ğò±éÀú
+void InOrder(BiTreeNode* root, void visit(DataType item));//ÖĞĞò±éÀú
+void PostOrder(BiTreeNode* root, void visit(DataType item));//ºóĞò±éÀú
+void visit(DataType item);//·ÃÎÊº¯Êı
+void Destory(BiTree bt); //ÊÍ·Å¿Õ¼ä
  
 int main()
 {
@@ -44,79 +44,79 @@ int main()
 	char sel = ' ';
 	while (sel != '0')
 	{
-		printf("------äºŒå‰æ ‘æ¼”ç¤ºç³»ç»Ÿ-------\n");
-		printf("   ç‰ˆæœ¬:1.0   ä½œè€…:XXX æ—¥æœŸ:2022-05-07\n");
+		printf("------¶ş²æÊ÷ÑİÊ¾ÏµÍ³-------\n");
+		printf("   °æ±¾:1.0   ×÷Õß:XXX ÈÕÆÚ:2022-05-07\n");
 		printf("------------------------------------------\n");
-		printf("       1.åˆ›å»ºäºŒå‰æ ‘\n");
-		printf("       2.å…ˆåºæ’åˆ—æ“ä½œ\n");
-		printf("       3.ä¸­åºæ’åˆ—æ“ä½œ\n");
-		printf("       4.ååºæ’åˆ—æ“ä½œ\n");
-		printf("       5.è¾“å‡ºäºŒå‰æ ‘çš„å¶å­èŠ‚ç‚¹å’Œåº¦ä¸º2çš„èŠ‚ç‚¹çš„æ•°é‡\n");
-		printf("       6.è¾“å‡ºäºŒå‰æ ‘çš„æ·±åº¦\n");
-		printf("       7.å°†äºŒå‰æ ‘æ‰€æœ‰èŠ‚ç‚¹çš„å·¦å³å­æ ‘äº’æ¢\n");
-		printf("       8.å±‚åºæ’åˆ—æ“ä½œ\n");
-		printf("       9.åˆ é™¤äºŒå‰æ ‘\n");
-		printf("       0.é€€å‡ºç³»ç»Ÿ\n");
-		printf("è¯·è¾“å…¥é€‰é¡¹[0-9]:");
+		printf("       1.´´½¨¶ş²æÊ÷\n");
+		printf("       2.ÏÈĞòÅÅÁĞ²Ù×÷\n");
+		printf("       3.ÖĞĞòÅÅÁĞ²Ù×÷\n");
+		printf("       4.ºóĞòÅÅÁĞ²Ù×÷\n");
+		printf("       5.Êä³ö¶ş²æÊ÷µÄÒ¶×Ó½ÚµãºÍ¶ÈÎª2µÄ½ÚµãµÄÊıÁ¿\n");
+		printf("       6.Êä³ö¶ş²æÊ÷µÄÉî¶È\n");
+		printf("       7.½«¶ş²æÊ÷ËùÓĞ½ÚµãµÄ×óÓÒ×ÓÊ÷»¥»»\n");
+		printf("       8.²ãĞòÅÅÁĞ²Ù×÷\n");
+		printf("       9.É¾³ı¶ş²æÊ÷\n");
+		printf("       0.ÍË³öÏµÍ³\n");
+		printf("ÇëÊäÈëÑ¡Ïî[0-9]:");
 		sel = _getch();
 		switch (sel)
 		{
 		case '1':
-			printf("åˆ›å»ºäºŒå‰æ ‘.\n");
+			printf("´´½¨¶ş²æÊ÷.\n");
 			T = CreatePreTree();
 			system("pause");
 			break;
 		case '2':
-			printf("å…ˆåºæ’åˆ—æ“ä½œ.\n");
-			printf("å‰åºéå†:");
-			PreOrder(T, visit);//å‰åºéå†
+			printf("ÏÈĞòÅÅÁĞ²Ù×÷.\n");
+			printf("Ç°Ğò±éÀú:");
+			PreOrder(T, visit);//Ç°Ğò±éÀú
 			system("pause");
 			break;
 		case '3':
-			printf("ä¸­åºæ’åˆ—æ“ä½œ.\n");
-			printf("\nä¸­åºéå†:");
-			InOrder(T, visit);//ä¸­åºéå†
+			printf("ÖĞĞòÅÅÁĞ²Ù×÷.\n");
+			printf("\nÖĞĞò±éÀú:");
+			InOrder(T, visit);//ÖĞĞò±éÀú
 			system("pause");
 			break;
 		case '4':
-			printf("ååºæ’åˆ—æ“ä½œ.\n");
-			printf("\nååºéå†:");
-			PostOrder(T, visit);//ååºéå†
+			printf("ºóĞòÅÅÁĞ²Ù×÷.\n");
+			printf("\nºóĞò±éÀú:");
+			PostOrder(T, visit);//ºóĞò±éÀú
 			system("pause");
 			break;
 		case '5':
-			printf("è¾“å‡ºäºŒå‰æ ‘çš„å¶å­èŠ‚ç‚¹å’Œåº¦ä¸º2çš„èŠ‚ç‚¹çš„æ•°é‡.\n");
-			printf("å¶å­èŠ‚ç‚¹ï¼š%dä¸ª  \n", Count1(T));
-			printf("åº¦ä¸º2çš„èŠ‚ç‚¹:%dä¸ª\n", Count2(T));
+			printf("Êä³ö¶ş²æÊ÷µÄÒ¶×Ó½ÚµãºÍ¶ÈÎª2µÄ½ÚµãµÄÊıÁ¿.\n");
+			printf("Ò¶×Ó½Úµã£º%d¸ö  \n", Count1(T));
+			printf("¶ÈÎª2µÄ½Úµã:%d¸ö\n", Count2(T));
 			system("pause");
 			break;
 		case '6':
-			printf("è¾“å‡ºäºŒå‰æ ‘çš„æ·±åº¦.\n");
-			printf("äºŒå‰æ ‘çš„æ·±åº¦ä¸ºï¼š%d\n", Treehigh(T));
+			printf("Êä³ö¶ş²æÊ÷µÄÉî¶È.\n");
+			printf("¶ş²æÊ÷µÄÉî¶ÈÎª£º%d\n", Treehigh(T));
 			system("pause");
 			break;
 		case '7':
-			printf("å°†äºŒå‰æ ‘æ‰€æœ‰èŠ‚ç‚¹çš„å·¦å³å­æ ‘äº’æ¢.\n");
+			printf("½«¶ş²æÊ÷ËùÓĞ½ÚµãµÄ×óÓÒ×ÓÊ÷»¥»».\n");
 			ChangeTree(T);
 			system("pause");
 			break;
 		case '8':
-			printf("å±‚åºæ’åˆ—æ“ä½œ.\n");
-			printf("\nå±‚åºéå†:\n");
-			LevelOrder(T);//å±‚åºéå†
+			printf("²ãĞòÅÅÁĞ²Ù×÷.\n");
+			printf("\n²ãĞò±éÀú:\n");
+			LevelOrder(T);//²ãĞò±éÀú
 			system("pause");
 			break;
 		case '9':
-			printf("åˆ é™¤äºŒå‰æ ‘.\n");
+			printf("É¾³ı¶ş²æÊ÷.\n");
 			Destory(T);
-			printf("åˆ é™¤æˆåŠŸ\n");
+			printf("É¾³ı³É¹¦\n");
 			system("pause");
 			break;
 		case '0':
-			printf("\nè°¢è°¢ä½¿ç”¨ï¼Œå†è§ï¼\n");
+			printf("\nĞ»Ğ»Ê¹ÓÃ£¬ÔÙ¼û£¡\n");
 			break;
 		default:
-			printf("æ‚¨è¾“å…¥çš„é€‰é¡¹ä¸åˆæ³•ï¼Œè¯·é‡æ–°é€‰æ‹©ï¼\n");
+			printf("ÄúÊäÈëµÄÑ¡Ïî²»ºÏ·¨£¬ÇëÖØĞÂÑ¡Ôñ£¡\n");
 		}
 	}
 	return 0;
@@ -126,11 +126,11 @@ void visit(DataType item)
 	printf("%c ", item);
 }
  
-BiTree CreatePreTree()//å»ºç«‹äºŒå‰æ ‘ 
+BiTree CreatePreTree()//½¨Á¢¶ş²æÊ÷ 
 {
 	char c;
 	scanf("%c", &c);
-	if (c == '#')  //ç©ºæ ¼ 
+	if (c == '#')  //¿Õ¸ñ 
 		return NULL;
 	else
 	{
@@ -142,7 +142,7 @@ BiTree CreatePreTree()//å»ºç«‹äºŒå‰æ ‘
 	}
 }
 void PreOrder(BiTreeNode* root, void visit(DataType item)) {
-	//å‰åºéå†äºŒå‰æ ‘rootï¼Œè®¿é—®æ“ä½œä¸ºvisit
+	//Ç°Ğò±éÀú¶ş²æÊ÷root£¬·ÃÎÊ²Ù×÷Îªvisit
 	if (root != NULL)
 	{
 		visit(root->data);
@@ -151,7 +151,7 @@ void PreOrder(BiTreeNode* root, void visit(DataType item)) {
 	}
 }
 void InOrder(BiTreeNode* root, void visit(DataType item)) {
-	//ä¸­åºéå†äºŒå‰æ ‘rootï¼Œè®¿é—®æ“ä½œä¸ºvisit
+	//ÖĞĞò±éÀú¶ş²æÊ÷root£¬·ÃÎÊ²Ù×÷Îªvisit
 	if (root != NULL)
 	{
 		InOrder(root->leftChild, visit);
@@ -161,7 +161,7 @@ void InOrder(BiTreeNode* root, void visit(DataType item)) {
 }
  
 void PostOrder(BiTreeNode* root, void visit(DataType item)) {
-	//ååºéå†äºŒå‰æ ‘rootï¼Œè®¿é—®æ“ä½œä¸ºvisit
+	//ºóĞò±éÀú¶ş²æÊ÷root£¬·ÃÎÊ²Ù×÷Îªvisit
 	if (root != NULL)
 	{
 		PostOrder(root->leftChild, visit);
@@ -171,7 +171,7 @@ void PostOrder(BiTreeNode* root, void visit(DataType item)) {
 }
  
 Queue InitQueue()
-{  //åˆå§‹åŒ–é˜Ÿåˆ—
+{  //³õÊ¼»¯¶ÓÁĞ
 	Queue seq;
 	int i;
 	for (i = 0; i < QueueMax; i++)
@@ -185,21 +185,21 @@ Queue InitQueue()
 }
  
 int IsEmptyQueue(Queue seq)
-{  //é˜Ÿåˆ—åˆ¤ç©º
+{  //¶ÓÁĞÅĞ¿Õ
 	if (seq.len == 0)  return 1;
 	return 0;
 }
  
 int IsFullQueue(Queue seq)
-{  //é˜Ÿåˆ—åˆ¤æ»¡
+{  //¶ÓÁĞÅĞÂú
 	if (seq.len == QueueMax)  return 1;
 	return 0;
 }
  
 void PushQueue(Queue* seq, BiTree T)
-{  //å…¥é˜Ÿ
+{  //Èë¶Ó
 	if (IsFullQueue(*seq)) {
-		printf("é˜Ÿåˆ—å·²æ»¡\n");
+		printf("¶ÓÁĞÒÑÂú\n");
 		return;
 	}
 	seq->rear = (seq->rear + 1) % QueueMax;
@@ -208,9 +208,9 @@ void PushQueue(Queue* seq, BiTree T)
 }
  
 void PopQueue(Queue* seq, BiTree* T)
-{  //å‡ºé˜Ÿ
+{  //³ö¶Ó
 	if (IsEmptyQueue(*seq)) {
-		printf("é˜Ÿåˆ—å·²ç©º\n");
+		printf("¶ÓÁĞÒÑ¿Õ\n");
 		return;
 	}
 	seq->head = (seq->head + 1) % QueueMax;
@@ -219,14 +219,14 @@ void PopQueue(Queue* seq, BiTree* T)
 }
  
 void LevelOrder(BiTree T)
-{  //å±‚åºéå†
+{  //²ãĞò±éÀú
 	if (T == NULL) return;
 	BiTree tmp = T;
 	Queue seq = InitQueue();
 	int curlevel = 1;
 	int nextlevel = 0;
 	PushQueue(&seq, tmp);
-	while (!IsEmptyQueue(seq))//é˜Ÿåˆ—ä¸ç©º
+	while (!IsEmptyQueue(seq))//¶ÓÁĞ²»¿Õ
 	{
 		printf("%c ", tmp->data);
 		curlevel--;
@@ -276,13 +276,13 @@ int Count2(BiTree bt)
 int Treehigh(BiTree bt)
 {
 	int lefthigh, righthigh, high;
-	if (bt == NULL)  high = 0;//ç©ºæ ‘
+	if (bt == NULL)  high = 0;//¿ÕÊ÷
 	else
 	{
 		lefthigh = Treehigh(bt->leftChild);
 		righthigh = Treehigh(bt->rightChild);
-		int i = lefthigh > righthigh ? lefthigh : righthigh;//æ‰¾åˆ°å­æ ‘çš„æ·±åº¦
-		high = i + 1;//å­æ ‘æ·±åº¦+1=æ ‘çš„æ·±åº¦
+		int i = lefthigh > righthigh ? lefthigh : righthigh;//ÕÒµ½×ÓÊ÷µÄÉî¶È
+		high = i + 1;//×ÓÊ÷Éî¶È+1=Ê÷µÄÉî¶È
 	}
 	return high;
 }
@@ -294,14 +294,14 @@ void ChangeTree(BiTree bt)
 	{
 		temp = bt->rightChild;
 		bt->rightChild = bt->leftChild;
-		bt->leftChild = temp;//ä¸Šé¢ä¸‰æ­¥ï¼ŒæŠŠbtç»“ç‚¹çš„å·¦å³ç»“ç‚¹äº¤æ¢æˆåŠŸ
+		bt->leftChild = temp;//ÉÏÃæÈı²½£¬°Ñbt½áµãµÄ×óÓÒ½áµã½»»»³É¹¦
 		ChangeTree(bt->leftChild);
 		ChangeTree(bt->rightChild);
 	}
 	else return;
 }
  
-void Destory(BiTree T) //ååºéå†ï¼Œé‡Šæ”¾ç»“ç‚¹ç©ºé—´
+void Destory(BiTree T) //ºóĞò±éÀú£¬ÊÍ·Å½áµã¿Õ¼ä
 {
 	if (T != NULL)
 	{
