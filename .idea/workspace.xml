@@ -19,7 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="4.21">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <changelist_data name="jialan" email="" />
+      <change beforePath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +33,9 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="jialan" />
         <option value="jialan &lt;2629977697@qq.com&gt;" />
         <option value="jialan123 &lt;2629977697@qq.com&gt;" />
-        <option value="jialan" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -128,7 +129,7 @@
       <workItem from="1682161968231" duration="1078000" />
       <workItem from="1682163058318" duration="50000" />
       <workItem from="1682163113664" duration="158000" />
-      <workItem from="1682163279152" duration="1000" />
+      <workItem from="1682163279152" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="4.21">
       <created>1682163258909</created>
@@ -137,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682163258909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4.21">
+      <created>1682163296166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682163296166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
