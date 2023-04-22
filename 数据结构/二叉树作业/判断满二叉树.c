@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* å®šä¹‰äºŒå‰æ ‘èŠ‚ç‚¹ç»“æ„ä½“ */
+/* ¶¨Òå¶ş²æÊ÷½Úµã½á¹¹Ìå */
 typedef struct node {
     int data;
     struct node *left;
     struct node *right;
 } Node;
 
-/* åˆ›å»ºæ–°èŠ‚ç‚¹ */
+/* ´´½¨ĞÂ½Úµã */
 Node* createNode(int data) {
     Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->data = data;
@@ -18,7 +18,7 @@ Node* createNode(int data) {
     return newNode;
 }
 
-/* è®¡ç®—äºŒå‰æ ‘çš„é«˜åº¦ */
+/* ¼ÆËã¶ş²æÊ÷µÄ¸ß¶È */
 int height(Node* root) {
     if (root == NULL) {
         return 0;
@@ -29,7 +29,7 @@ int height(Node* root) {
     }
 }
 
-/* åˆ¤æ–­äºŒå‰æ ‘æ˜¯å¦æ˜¯æ»¡äºŒå‰æ ‘ */
+/* ÅĞ¶Ï¶ş²æÊ÷ÊÇ·ñÊÇÂú¶ş²æÊ÷ */
 int isFullBinaryTree(Node* root) {
     if (root == NULL) {
         return 1;
@@ -44,7 +44,7 @@ int isFullBinaryTree(Node* root) {
     }
 }
 
-/* è®¡ç®—å¶å­èŠ‚ç‚¹æ•°ç›® */
+/* ¼ÆËãÒ¶×Ó½ÚµãÊıÄ¿ */
 int countLeaves(Node* root) {
     if (root == NULL) {
         return 0;
@@ -56,7 +56,7 @@ int countLeaves(Node* root) {
 }
 
 int main() {
-    /* åˆ›å»ºäºŒå‰æ ‘ */
+    /* ´´½¨¶ş²æÊ÷ */
     Node* root = createNode(1);
     root->left = createNode(2);
     root->right = createNode(3);
@@ -65,15 +65,15 @@ int main() {
     root->right->left = createNode(6);
     root->right->right = createNode(7);
 
-    /* åˆ¤æ–­æ˜¯å¦æ˜¯æ»¡äºŒå‰æ ‘ */
+    /* ÅĞ¶ÏÊÇ·ñÊÇÂú¶ş²æÊ÷ */
     if (isFullBinaryTree(root)) {
-        printf("æ˜¯æ»¡äºŒå‰æ ‘\n");
+        printf("ÊÇÂú¶ş²æÊ÷\n");
     } else {
-        printf("ä¸æ˜¯æ»¡äºŒå‰æ ‘\n");
+        printf("²»ÊÇÂú¶ş²æÊ÷\n");
     }
 
-    /* è®¡ç®—å¶å­èŠ‚ç‚¹æ•°ç›® */
-    printf("å¶å­èŠ‚ç‚¹æ•°ç›®ä¸ºï¼š%d\n", countLeaves(root));
+    /* ¼ÆËãÒ¶×Ó½ÚµãÊıÄ¿ */
+    printf("Ò¶×Ó½ÚµãÊıÄ¿Îª£º%d\n", countLeaves(root));
 
     return 0;
 }

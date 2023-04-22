@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="PROJECT" charset="GBK" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/CMakeLists.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/二叉树/Demo/Demo01.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/二叉树/整体/Btree.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/二叉树作业/作业.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/二叉树作业/判断满二叉树.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.cpp .cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/Demo01.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/test.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/数据结构/顺序表/图书管理系统.c" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
