@@ -19,49 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="4.21">
-      <changelist_data name="jialan" email="2629977697@qq.com" />
-      <change afterPath="$PROJECT_DIR$/.idea/C2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/customTargets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/CMakeDetermineCompilerABI_C1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/a1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/a2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/a3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/a4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/CMakeDetermineCompilerABI_C1.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/a1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/a2.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/a3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在变基之前未提交的更改_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tools/External Tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/二叉树作业/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +127,17 @@
       <workItem from="1682161158714" duration="794000" />
       <workItem from="1682161968231" duration="1078000" />
       <workItem from="1682163058318" duration="50000" />
+      <workItem from="1682163113664" duration="158000" />
+      <workItem from="1682163279152" duration="1000" />
     </task>
+    <task id="LOCAL-00001" summary="4.21">
+      <created>1682163258909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682163258909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
