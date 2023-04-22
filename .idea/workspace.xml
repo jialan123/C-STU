@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="4.21">
-      <changelist_data name="jialan" email="" />
-      <change beforePath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" afterDir="false" />
-    </list>
+    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +126,7 @@
       <workItem from="1682161968231" duration="1078000" />
       <workItem from="1682163058318" duration="50000" />
       <workItem from="1682163113664" duration="158000" />
-      <workItem from="1682163279152" duration="85000" />
+      <workItem from="1682163279152" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="4.21">
       <created>1682163258909</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682163296166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/jialan123/C-STU into home">
+      <created>1682163377837</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682163377837</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +189,8 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="4.22" />
     <MESSAGE value="4.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.21" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
