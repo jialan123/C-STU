@@ -109,7 +109,7 @@ int main() {
     printf("\n交换后为：\n");
     preorderTraversal(t);
     printf("\n-----------------------------\n");
-    printf("数的深度为：%d\n",height(t));
-    
+    printf("数的深度为：%d\n", height(t));
+    system("pause");
     return 0;
 }
