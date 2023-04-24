@@ -18,40 +18,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge branch 'master' of https://github.com/jialan123/C-STU into home">
-      <change afterPath="$PROJECT_DIR$/1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作业.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/判断满二叉树.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图书管理系统.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.cpp .cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/Demo01.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/顺序表/图书管理系统.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/customTargets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/customTargets.xml" afterDir="false" />
+    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge pull request #2 from jialan123/home&#10;&#10;4.22">
+      <change afterPath="$PROJECT_DIR$/Book_Management_System.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tools/External Tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tools/External Tools.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-Debug-MinGW-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/二叉树/Demo/Demo01.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树/Demo/Demo01.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/二叉树/整体/Btree.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树/整体/Btree.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构/二叉树作业/判断满二叉树.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树作业/判断满二叉树.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.cpp .cpp" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/顺序表/Book_Management_System.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +36,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="珈蓝 &lt;45476480+jialan123@users.noreply.github.com&gt;" />
         <option value="jialan" />
         <option value="jialan &lt;2629977697@qq.com&gt;" />
         <option value="jialan123 &lt;2629977697@qq.com&gt;" />
@@ -140,7 +113,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ 文件.main.cpp">
+  <component name="RunManager" selected="C/C++ 文件.Book_Management_System.cpp .cpp (1)">
     <configuration name="Copile&amp;Running" type="CLionExternalRunConfiguration" factoryName="Application" singleton="false" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-STU" TARGET_NAME="compile" CONFIG_NAME="compile" RUN_PATH="$PROJECT_DIR$/数据结构/顺序表/Demo01.c">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -151,8 +124,14 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo01.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-STU" TARGET_NAME="Demo01.c" CONFIG_NAME="Demo01.c">
-      <option name="sourceFile" value="数据结构\顺序表\Demo01.c" />
+    <configuration name="Book_Management_System.cpp .cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-STU" TARGET_NAME="Book_Management_System.cpp .cpp">
+      <option name="sourceFile" value="数据结构\顺序表\Book_Management_System.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Book_Management_System.cpp .cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-STU" TARGET_NAME="Book_Management_System.cpp .cpp" CONFIG_NAME="Book_Management_System.cpp .cpp">
+      <option name="sourceFile" value="数据结构\顺序表\Book_Management_System.cpp .cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -182,18 +161,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ 文件.Book_Management_System.cpp .cpp" />
+      <item itemvalue="C/C++ 文件.Book_Management_System.cpp .cpp (1)" />
       <item itemvalue="C/C++ 文件.main.cpp" />
       <item itemvalue="C/C++ 文件.test.c" />
       <item itemvalue="C/C++ 文件.图书管理系统.c" />
-      <item itemvalue="C/C++ 文件.Demo01.c" />
       <item itemvalue="自定义构建应用程序.Copile&amp;Running" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ 文件.Book_Management_System.cpp .cpp (1)" />
         <item itemvalue="C/C++ 文件.main.cpp" />
+        <item itemvalue="C/C++ 文件.Book_Management_System.cpp .cpp" />
         <item itemvalue="C/C++ 文件.图书管理系统.c" />
         <item itemvalue="C/C++ 文件.test.c" />
-        <item itemvalue="C/C++ 文件.Demo01.c" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +204,7 @@
       <workItem from="1682163279152" duration="196000" />
       <workItem from="1682332378838" duration="70000" />
       <workItem from="1682332462549" duration="459000" />
-      <workItem from="1682332935298" duration="16565000" />
+      <workItem from="1682332935298" duration="17351000" />
     </task>
     <task id="LOCAL-00001" summary="4.21">
       <created>1682163258909</created>
@@ -246,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682163377837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge pull request #2 from jialan123/home&#10;&#10;4.22">
+      <created>1682349818423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682349818423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +275,8 @@
     <MESSAGE value="4.22" />
     <MESSAGE value="4.21" />
     <MESSAGE value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
+    <MESSAGE value="Merge pull request #2 from jialan123/home&#10;&#10;4.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from jialan123/home&#10;&#10;4.22" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
