@@ -18,7 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
+    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="4.22">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/二叉树作业/作业.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="home" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,7 +129,7 @@
       <workItem from="1682161968231" duration="1078000" />
       <workItem from="1682163058318" duration="50000" />
       <workItem from="1682163113664" duration="158000" />
-      <workItem from="1682163279152" duration="196000" />
+      <workItem from="1682163279152" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="4.21">
       <created>1682163258909</created>
@@ -142,12 +145,12 @@
       <option name="project" value="LOCAL" />
       <updated>1682163296166</updated>
     </task>
-    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/jialan123/C-STU into home">
-      <created>1682163377837</created>
+    <task id="LOCAL-00003" summary="4.22">
+      <created>1682164075274</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1682163377837</updated>
+      <updated>1682164075274</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -172,7 +175,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="home" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -187,10 +190,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changes" />
-    <MESSAGE value="4.22" />
     <MESSAGE value="4.21" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/jialan123/C-STU into home" />
+    <MESSAGE value="4.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.22" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
