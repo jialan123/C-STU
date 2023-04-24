@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge pull request #2 from jialan123/home&#10;&#10;4.22">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图书管理系统.exe" beforeDir="false" afterPath="$PROJECT_DIR$/图书管理系统.exe" afterDir="false" />
-    </list>
+    <list default="true" id="b8f9f618-7cb7-4fa6-9367-bb350d271c76" name="Changes" comment="Merge pull request #2 from jialan123/home&#10;&#10;4.22" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +150,7 @@
       <workItem from="1682163058318" duration="50000" />
       <workItem from="1682163113664" duration="158000" />
       <workItem from="1682163279152" duration="196000" />
-      <workItem from="1682352066433" duration="1000" />
+      <workItem from="1682352066433" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="4.21">
       <created>1682163258909</created>
@@ -196,8 +193,38 @@
     <isAutomaticFoundErrors value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="389839db-e621-4a35-b3b4-edaf3e1b2f80" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="389839db-e621-4a35-b3b4-edaf3e1b2f80">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
