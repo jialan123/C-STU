@@ -6,13 +6,13 @@
 
 //定义用户结构体:读者编号，读者姓名，性别，可借书数，读者已借书的编号
 typedef struct User {
-    int iNum;
-    char acName[15];
-    char acSex[4];
-    char position[20];
+    int iNum;           //读者id
+    char acName[15];    //读者名称
+    char acSex[4];      //读者性别
+    char position[20];  //读者职位
     int iMax;   //student20本，teacher40本
-    int iAmount;
-    int aiBookld[100];
+    int iAmount;        //已借书数量
+    int aiBookld[100];  //存放已借书本id
     int balance;
     int day;
     struct User *next;
@@ -47,8 +47,8 @@ void ShowMainMenu() {
     printf("\t|         10.文件保存            \n");
     printf("\t|         11.从文件读取            \n");
     printf("\t|         0.退出           \n");
-    printf("\t|-----------------------------------------------|");
-    printf("\n新打开程序需求添加程序员\n");
+    printf("\t|-----------------------------------------------|\n");
+    printf("\n\t新打开程序需求添加程序员\n");
     printf("\n");
     printf("\t\t请选择（0-11）：");
 }

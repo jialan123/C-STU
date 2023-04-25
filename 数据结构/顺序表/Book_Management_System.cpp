@@ -1,7 +1,6 @@
 
 #include<stdio.h>
 #include <windows.h>
-#include<stdio.h>
 #include"Book_Management_System.h"
 
 
@@ -857,7 +856,6 @@ void BorrowReturnManger()//借还书模块
         getchar();
     }
 }
-
 
 int main() {
     //显示主函数的界面;
