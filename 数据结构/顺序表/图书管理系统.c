@@ -3,7 +3,7 @@
 #include "windows.h"    //Sleep()使用的头文件
 #include "string.h"     //strcmp()使用的头文件
 #include "assert.h"
-
+#include "stdlib.h"
 //定义用户结构体:读者编号，读者姓名，性别，可借书数，读者已借书的编号
 typedef struct User {
     int iNum;           //读者id
@@ -73,9 +73,9 @@ Book *AddBook(Book *book1) {
         printf("输入书的库存量：");
         scanf("%d", &tmp->iAmount);
         book = tmp;
-
-        printf("\n按任意键返回\n");
-        getchar();
+        system("pause");
+//        printf("\n按任意键返回\n");
+//        getchar();
         return book;
     }
 }
