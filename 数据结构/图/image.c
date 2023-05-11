@@ -5,5 +5,5 @@
 
 int main() {
     Init();
-    CreatALGraph();
+    //CreatALGraph();
 }

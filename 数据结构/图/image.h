@@ -35,19 +35,14 @@ typedef struct AdjListGraph {
 } AdjListGraph;//邻接表
 
 void Init();
-
 int start();
-
 void print_array(MGragh *g);
-
 void DFSTraverse(MGragh *g, int str);
 
 EdgeType LocateVex(AdjListGraph *q, VertexType vex);
 
 void CreatALGraph();
-
 void traverse_ALn(AdjListGraph *q, int start);
-
 void print_ALn(AdjListGraph *g);
 
 //接收数据
@@ -67,9 +62,10 @@ void Init() {
         }
     }
     int q, b;
-    printf("\n输入边的信息：");
+    printf("\n输入边的信息：\n");
     for (int k = 1; k <= g->arcnum; ++k) {
-        scanf("%d%d", &q, &b);
+        printf("输入边信息(用空格分割)：");
+        scanf("%d %d", &q, &b);
         g->Edge[q][b] = g->Edge[b][q] = 1;
     }
 
@@ -142,8 +138,8 @@ void CreatALGraph() {
 
     printf("\n=======邻接表======\n");
     //输入顶点g->vex，边g->edge
-    printf("输入顶点数与边数(用，隔开)：");
-    scanf("%d,%d", &g->vex, &g->edge);
+    printf("输入顶点数与边数(用空格隔开)：");
+    scanf("%d %d", &g->vex, &g->edge);
 
     //输入顶点信息
     printf("输入顶点信息(用空格隔开)：");
