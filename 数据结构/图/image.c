@@ -4,6 +4,6 @@
 #include "image.h"
 
 int main() {
-    Init();
-    //CreatALGraph();
+    //Init();
+    CreatALGraph();
 }
